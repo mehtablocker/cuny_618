@@ -1,0 +1,89 @@
+---
+title: "CUNY 618"
+subtitle: "HW Assignment - Week 6"
+author: "mehtablocker"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<style type="text/css">
+h3 {
+  color: DarkBlue;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+
+```
+
+###Q1
+
+put = call - (underlying - divs e^(-rate time)) + strike e^(-rate time)
+<br>
+**(b) $1.64**
+
+###Q2
+
+0.90e^(-0.055 0.25) + 1.20e^(-0.055 0.5) + 1.45e^(-0.055 0.75)
+<br>
+**(a) $3.45**
+
+###Q3
+
+2.10/1.052 + 2.20/1.055^2 + 2.35/1.058^3
+<br>
+**(a) $5.96**
+
+###Q4
+
+0.5/1.052 + 0.5/1.056^2 + 0.5/1.06^3
+<br>
+**(d) $1.34**
+
+###Q5
+
+(1/0.8516)^(1/3)
+<br>
+**(b) 5.5%**
+
+###Q6
+
+(0.9036/0.7881 -1)/2
+<br>
+**I get an answer of 7.3% which is not listed in the multiple choices.**
+
+###Q7
+
+Soybeans exhibit both
+<br>
+**(c) Contango and backwardation**
+
+###Q8
+
+With corn at 1.80 she makes:
+(0.15)(10000) - (1200)e^(0.04 0.5) = 275.7584
+
+With corn at 1.75 she makes:
+(0.10)(10000) + (0.05)(10000) - (1200)e^(0.04 0.5) = 275.7584
+
+So her marginal change in PnL due to the drop is:
+<br>
+**(b) $0**
+
+###Q9
+
+(950.46)e^(-0.014 0.5)
+<br>
+**(a) $943.83**
+
+###Q10
+
+930-920
+<br>
+**(c) $10 gain**
